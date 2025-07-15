@@ -1,7 +1,8 @@
 #Automated Book Publication Workflow
+
 This is a simple Python program that scrapes content from a webpage, rewrites it using AI, lets you review it, and reads it out loud if you want.
 
-#What it does
+ What it does
 Scrapes text from a webpage
 Rewrites it using Google Gemini AI
 Reviews the rewritten text using AI
@@ -9,7 +10,7 @@ Lets you accept, reject, edit, or listen to the text
 Logs your actions as rewards
 Saves a screenshot of the page
 
-#Files
+ Files
 pro.py – main program file
 chapter.txt – stores the scraped text
 screenshot.png – screenshot of the webpage
@@ -26,7 +27,7 @@ Run this command in your terminal:
 python pro.py
 
 
-#Notes
+ ******Notes*******
 Right now, the URL is hardcoded to The Gates of Morning Wikisource page
 
 Make sure you replace the API key in the code with your own
